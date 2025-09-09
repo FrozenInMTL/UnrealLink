@@ -6,7 +6,7 @@
 #include "Modules/ModuleInterface.h"
 #include "Modules/ModuleManager.h"
 
-class RIDERLINK_API IRiderLinkModule : public IModuleInterface
+class IRiderLinkModule : public IModuleInterface
 {
 public:
 	static IRiderLinkModule& Get()
